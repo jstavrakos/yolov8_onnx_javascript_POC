@@ -15,3 +15,8 @@ You need to run `index.html` using any local webserver, for example internal web
 the model file `yolov8m.onnx` exists in the same folder with `index.html`.
 
 Using the interface in `index.html` you can upload the image to the object detector and see bounding boxes of all  objects detected on it.
+
+# FOR TESTING
+
+Run:  npx light-server -s . -p 8080
+Open localhost:8080 in browser
